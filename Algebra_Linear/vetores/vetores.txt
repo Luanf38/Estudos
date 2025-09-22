@@ -5,8 +5,6 @@ Os vetores são usados para representar grandezas escalares (representação de 
 pressão, ect.) e grandezas físicas vetoriais (velocidade , força e deslocamento).
 
 vetores com duas dimensões são chamados de R² (X (horizontal), Y (vertical)) R² = R * R
-obs: todos os números trabalhados em álgebra linear são números reais
-
 se um vetor está na posição (3, 2) então ele será representado no plano cartesiano
 no ponto 3 do eixo 'X' e e no ponto 2 do eixo 'Y'
 nesse caso o vetor é será segmento do ponto (0, 0) ou "Origem" até o ponto (3 horizontal, 2 vertical) ou "Coordenada"
@@ -15,3 +13,5 @@ Vetores com 3 domensões são chamados de R³ (X (horizontal), Y (vertical), Z (
 se um vetor R³ está na posição (2 (horizontal), 4 (vertical), 3 (profundidade))
 então primeirp deve se achar a coordenada entre os eixos X e Z (XZ) e logo após encontrar a coordenada entre 
 XZ e Y como mostra a imagem "vetores_r3.png"
+
+obs: todos os números trabalhados em álgebra linear são números reais
