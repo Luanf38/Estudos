@@ -1,0 +1,3 @@
+Um circuito digital é um circuito onde as entradas e saídas
+são sinais digitais e um circuito analógico é aquele que
+as entradas e saídas são sinais analógicos

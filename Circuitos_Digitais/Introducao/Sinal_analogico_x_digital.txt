@@ -1,0 +1,5 @@
+A diferença entre um sinal analógico e digital é que um sinal analógico pode
+assumir infinitos valores de amplitude (o som por exemplo), 
+já um sinal digital assume valores finitos de amplitude (binário)
+
+Obs: Não necessesariamente a quantidade de entradas e saídas são iguais
