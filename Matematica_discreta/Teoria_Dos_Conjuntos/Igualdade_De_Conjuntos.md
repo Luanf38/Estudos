@@ -5,9 +5,13 @@ Essa condição é denotada po A = B
 
     Conjunto Vazio
 Um conjunto que não possui nenhum elemento
-![alt text](conjunto_vazio.png)
+![alt text](images/conjunto_vazio.png)
 
     Relação de Inclusão
 Se um conjunto A faz parte ou é um subconjunto de B então
 A está contido em B
-![alt text](relacao_de_inclusao.png)
+![alt text](images/relacao_de_inclusao.png)
+
+    Cardinalidade
+A definição de quantos elementos o conjunto tem
+![alt text](images/cardinalidade)
