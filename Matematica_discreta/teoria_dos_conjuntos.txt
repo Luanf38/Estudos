@@ -1,3 +1,21 @@
 Um conjunto é uma coleção de elementos
 existem alguns conjuntos comunmente usados, como o conjunto
 dos numeros inteiros, reais, racionais
+
+Alguns conjuntos são impossíveis por exemplo, um conjunto de todos os conjuntos
+e o conjuntos dos conjuntos normais
+
+porque esses conjuntos são impossíveis? 
+    Conjunto normais, são os cunjuntos que não tem o próprio conjunto como elemento
+        O conjunto N é considerado normal?
+
+        SIM
+            Então ele deveria ser elemento de N, mas aí N não seria normal
+        NÃO
+            então N não deveria ser elemento de N, mas aí N seria normal
+
+    Conjunto de todos os conjuntos (U)
+        se existe um conjunto U então podemos obter um conjunto N com os conjuntos de U
+        que tem a propriedade de ser normais. E daí chegamos no paradoxo acima
+
+Devido à esse fato é comprovado que os conjuntos não podem ser criados de forma arbitrária
