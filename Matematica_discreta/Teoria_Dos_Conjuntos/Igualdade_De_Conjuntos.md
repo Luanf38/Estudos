@@ -15,3 +15,12 @@ A está contido em B
     Cardinalidade
 A definição de quantos elementos o conjunto tem
 ![alt text](images/cardinalidade)
+
+    União e interseção
+A união é a junção de todos os elementos de n conjuntos
+onde vai ser criado um novo conjunto com os elementos de A e B, mas sem repetições
+Ex: A = {1,2,3} e B = {2,3,4,5} a união dos dois será = {1,2,3,4,5}
+
+Já a interceção é o conjunto de todos os elemento que estão em ambos conjuntos 
+Ex: A = {1,2,3} e B = {2,3,4,5} a interceção dos dois será = {2,3}
+![alt text](images/uniao_e_intercecao.png)
