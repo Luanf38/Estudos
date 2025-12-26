@@ -1,0 +1,3 @@
+Um conjunto é uma coleção de elementos
+existem alguns conjuntos comunmente usados, como o conjunto
+dos numeros inteiros, reais, racionais
