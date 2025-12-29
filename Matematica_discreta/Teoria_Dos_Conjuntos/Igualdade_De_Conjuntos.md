@@ -41,3 +41,6 @@ União e interseção
 Diferença, Universo e complemento
     ![alt text](images/diferenca_universo_complemento.png)
 
+Diferença Simértrica
+    ![alt text](images/diferenca_simetrica.png)
+
