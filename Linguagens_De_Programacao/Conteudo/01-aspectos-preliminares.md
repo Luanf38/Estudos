@@ -6,16 +6,16 @@ title: Aspectos preliminares
 
 ### Razões para estudar conceitos de linguagens de programação
 
--   Aumentar a capacidade de expressar ideias \pause
+-   Aumentar a capacidade de expressar ideias 
 
 -   Melhorar as condições de escolha da linguagem apropriada para cada problema
-    \pause
+    
 
--   Aumentar a capacidade de aprender novas linguagens \pause
+-   Aumentar a capacidade de aprender novas linguagens 
 
--   Melhorar o uso das linguagens já conhecidas \pause
+-   Melhorar o uso das linguagens já conhecidas 
 
--   Entender a importância da implementação \pause
+-   Entender a importância da implementação 
 
 -   Avanço da área de computação
 
@@ -23,7 +23,7 @@ title: Aspectos preliminares
 
 ### Domínios de programação
 
--   Aplicações científicas \pause
+-   Aplicações científicas 
 
     -   Estruturas simples (arranjos e matrizes)
 
@@ -33,9 +33,9 @@ title: Aspectos preliminares
 
     -   Fortress, Mathlab (Octave), numpy (Python)
 
-    \pause
+    
 
--   Aplicações comerciais \pause
+-   Aplicações comerciais 
 
     -   Produção de relatórios
 
@@ -43,9 +43,9 @@ title: Aspectos preliminares
 
     -   Cobol
 
-    \pause
+    
 
--   Inteligência artificial \pause
+-   Inteligência artificial 
 
     -   Manipulação de símbolos (lista ligada)
 
@@ -57,7 +57,7 @@ title: Aspectos preliminares
 
 ### Domínios de programação
 
--   Software de sistema \pause
+-   Software de sistema 
 
     -   Eficiência devido ao uso contínuo
 
@@ -65,9 +65,9 @@ title: Aspectos preliminares
 
     -   D, Go, Rust
 
-    \pause
+    
 
--   Web \pause
+-   Web 
 
     -   Código dentro do documento
 
@@ -99,7 +99,7 @@ title: Aspectos preliminares
 
         -   Muito simples não é bom (assembly)
 
-        \pause
+        
 
     -   Ortogonalidade
 
@@ -121,7 +121,7 @@ title: Aspectos preliminares
 
         -   Tipos pré-definidos adequados
 
-        \pause
+        
 
     -   Sintaxe
 
@@ -139,7 +139,7 @@ title: Aspectos preliminares
 
         -   Poucas construções e um conjunto consistente de formas de combinação
 
-        \pause
+        
 
     -   Suporte para abstração
 
@@ -150,7 +150,7 @@ title: Aspectos preliminares
 
         -   Suporte a tipos abstratos de dados
 
-        \pause
+        
 
     -   Expressividade
 
@@ -160,11 +160,11 @@ title: Aspectos preliminares
 
 -   Confiabilidade
 
-    -   Verificação de tipos \pause
+    -   Verificação de tipos 
 
-    -   Manipulação de exceções \pause
+    -   Manipulação de exceções 
 
-    -   Apelidos \pause
+    -   Apelidos 
 
     -   Facilidade de leitura e escrita
 
@@ -172,17 +172,17 @@ title: Aspectos preliminares
 
 -   Custo
 
-    -   Treinar programadores \pause
+    -   Treinar programadores 
 
-    -   Escrever programas \pause
+    -   Escrever programas 
 
-    -   Compilar programas \pause
+    -   Compilar programas 
 
-    -   Executar programas \pause
+    -   Executar programas 
 
-    -   Confiabilidade \pause
+    -   Confiabilidade 
 
-    -   Manutenção \pause
+    -   Manutenção 
 
     -   Maior peso no custo: escrita, manutenção e confiabilidade
 
@@ -195,7 +195,7 @@ title: Aspectos preliminares
 
     -   Padronização
 
-    \pause
+    
 
 -   Diferentes visões
 
@@ -217,7 +217,7 @@ title: Aspectos preliminares
 
     -   Outras?
 
-    \pause
+    
 
 -   Metodologias de Programação
 
@@ -231,11 +231,11 @@ title: Aspectos preliminares
 
 ### Categorias de linguagens
 
--   Imperativas: \pause Algol68, Fortran, Cobol, Ruby, Python, Go, Java, Pascal,
-    C/C++, ... \pause
+-   Imperativas:  Algol68, Fortran, Cobol, Ruby, Python, Go, Java, Pascal,
+    C/C++, ... 
 
 -   Funcionais ou Aplicativas: Lisp, Haskell, ML, Scheme, Erlang, Ocaml, F\#,
-    Miranda, ... \pause
+    Miranda, ... 
 
 -   Lógicas ou Declarativas: Prolog, Planner, QA-4, Popler, Conniver, QLISP,
     Mercury, Oz, Frill, ...
