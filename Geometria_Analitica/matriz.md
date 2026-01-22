@@ -6,7 +6,7 @@
 
 ##### Notação:
 &emsp; A = [**a**ij]3X2
-A é a matriz, **a** é o elemento, i o número da linha, e j o número da coluna que ele se encontra, cada elento possui seu endereço na forma da anotação acima.
+A é a matriz, **a** é o elemento, i o número da linha, e j o número da coluna que ele se encontra, cada elento possui seu endereço na forma da notação acima.
 
 #### Tipos de matrizes:  
 &emsp;Lembrando que uma matriz pode ter vários tipos.  
@@ -129,4 +129,18 @@ A multiplicação de matrizes tem algumas propriedades, como:
 &emsp;A distributividade em matrizes se dá ao fato que A (B + C) = AB + AC
 
 ##### Atenção
-&emsp;A multiplicação de matrizes não é comutativa então AB != BA 
+&emsp;A multiplicação de matrizes não é comutativa então AB != BA  
+
+#### Transposição  
+##### Notação:  
+![alt text](images/notacao_transposicao.png)
+&emsp;A transposta de uma matriz A = (**a**ij)m x n é a matriz B = (**b**ij)n x m tal que **b**ij = **a**ji, ou seja é uma matriz que inverte as linhas pelas colunas.  
+Por exemplo:
+
+        A =  0 1  2  3   Sua transposta será:   B = 0 -1  2  
+            -1 2  1  4                              1  2  0
+             2 0  6  0                              2  1  6
+                                                    3  4  0
+
+##### Propriedades da transposição
+![alt text](images/propriedades_transposicao.png)
