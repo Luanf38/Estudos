@@ -2,43 +2,43 @@
 
 &emsp;Matriz é uma estrutura matemática disposta em tabela e que possui as operações de adição, subtração e multiplicação muito bem definidas.
 
-&emsp;A definição matemática de uma matriz de ordem (m x n) é uma tabela de números dispostoes em m linhas e n colunas.
+&emsp;A definição matemática de uma matriz de ordem (m x n) é uma tabela de números dispostos em m linhas e n colunas.
 
 ##### Notação:
 &emsp; A = [**a**ij]3X2
-A é a matriz, **a** o elemnto, i o número da linha, e j o número da coluna que ele se encontra, cada elento possui seu endereço na forma da anotação acima.
+A é a matriz, **a** é o elemento, i o número da linha, e j o número da coluna que ele se encontra, cada elento possui seu endereço na forma da anotação acima.
 
-#### Tipos de matrizes:
-&emsp;Lembrando que uma matriz pode ter vários tipos.
-##### Matriz Linha:
-&emsp;São matrizes que possuem apenas uma única linha. 
-Matematicamente: m = 1.
-Por exemplo: 
+#### Tipos de matrizes:  
+&emsp;Lembrando que uma matriz pode ter vários tipos.  
+##### Matriz Linha:  
+&emsp;São matrizes que possuem apenas uma única linha.  
+Matematicamente: m = 1.  
+Por exemplo:   
 
     [1 , 2, 3, 4] = 1 X n
 
-##### Matriz Coluna:
-&emsp;São matrizes que possuem apenas uma única coluna.
-Matematicamente: n = 1. 
-Por exemplo: 
+##### Matriz Coluna:  
+&emsp;São matrizes que possuem apenas uma única coluna.  
+Matematicamente: n = 1.  
+Por exemplo:  
 
             [1]
             [2]  = 1 X n
             [3]
 
 ##### Matriz Nula:
-&emsp;Todas as suas entradas são 0
-Matematicamente: **a**ij = 0.
-Por exemplo:
+&emsp;Todas as suas entradas são 0  
+Matematicamente: **a**ij = 0.  
+Por exemplo:  
 
     A = 0 0 0
         0 0 0 
         0 0 0
 
-##### Matriz Quadrada:
-&emsp;Matrizes que o número de linhas e colunas são iguais
-Matematicamente: m = n.
-Por exemplo:
+##### Matriz Quadrada:  
+&emsp;Matrizes que o número de linhas e colunas são iguais  
+Matematicamente: m = n.  
+Por exemplo:  
     
     A = 1 2 3 5
         5 2 5 5
@@ -119,14 +119,14 @@ Por Exemplo:
                4  1
         
 A multiplicação de matrizes tem algumas propriedades, como:
-**Associatividade**
+##### Associatividade
 &emsp;Independente da ordem que se multiplicar matrizes o resultado será o mesmo (A . B) . C = A . (B . C) 
 
-**Existência de elemento neutro**
+##### Existência de elemento neutro
 &emsp;O elemento neutro de uma mulitplicação de matrizes é a matriz identidade, tendo em vista que qualquer matriz A multiplicada pela matriz identidade I, o resultado sra a matriz A
 
-**Distributividade**
+##### Distributividade
 &emsp;A distributividade em matrizes se dá ao fato que A (B + C) = AB + AC
 
-**Atenção**
+##### Atenção
 &emsp;A multiplicação de matrizes não é comutativa então AB != BA 
