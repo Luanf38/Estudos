@@ -21,3 +21,14 @@ Consiste em escrever as três colunas da matriz e repetir as duas primeiras colu
 &emsp;**Matrix de qualquer ordem acima de dois (teorema de Laplace)**
 Para entender esse teorema precisamos de dois conceitos preliminares, que são,
 menor complementar e cofator
+
+##### Menor complementar
+&emsp;É um número que se calcula a partir de uma matrz e de uma entrada dessa matriz. Existe o menor complementar de entrada 1,1 da entrada 1,2 etc...
+O exemplo a seguir mostra como se calcula o menor complementar da posição 1,3 de uma matriz 4x4.
+![alt text](images/menor_complementar_1.3.png)
+note que eliminamos a linha 1 e a coluna 3 e logo após aplicamos a regra de Sarrus na nova matriz 3x3.
+
+##### Menor complementar
+&emsp;O cofator é um número que se calcula com base no menor complementar mas alterando seu símbolo com base na doma dos indícies da entrada. \
+Por exemplo: 
+![alt text](images/cofator.png)
