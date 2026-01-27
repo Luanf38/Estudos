@@ -32,3 +32,8 @@ note que eliminamos a linha 1 e a coluna 3 e logo após aplicamos a regra de Sar
 &emsp;O cofator é um número que se calcula com base no menor complementar mas alterando seu símbolo com base na doma dos indícies da entrada. \
 Por exemplo: 
 ![alt text](images/cofator.png)
+
+##### Demonstrando o teorema
+&emsp;Agora que já conhecemos menor complementar e cofator vamos falar sobre o teorema de Laplace. Para calcular o determinante usando esse teorema deve-se escolher qualquer linha ou coluna da matriz e somar o resultado de aij . Cij, para cada elemento da linha ou coluna escolhida. \
+Por exemplo:
+![alt text](images/teorema_de_laplace.png)
