@@ -37,3 +37,29 @@ Por exemplo:
 &emsp;Agora que já conhecemos menor complementar e cofator vamos falar sobre o teorema de Laplace. Para calcular o determinante usando esse teorema deve-se escolher qualquer linha ou coluna da matriz e somar o resultado de aij . Cij, para cada elemento da linha ou coluna escolhida. \
 Por exemplo:
 ![alt text](images/teorema_de_laplace.png)
+
+#### 12 propriedades relacionadas com determinante
+##### 1
+![alt text](images/propriedades_determinantes/1.png)
+##### 2
+![alt text](images/propriedades_determinantes/2.png)
+##### 3
+![alt text](images/propriedades_determinantes/3.png)
+##### 4
+![alt text](images/propriedades_determinantes/4.png)
+##### 5
+![alt text](images/propriedades_determinantes/5.png)
+##### 6
+![alt text](images/propriedades_determinantes/6.png)
+##### 7
+![alt text](images/propriedades_determinantes/7.png)
+##### 8
+![alt text](images/propriedades_determinantes/8.png)
+##### 9
+![alt text](images/propriedades_determinantes/9.png)
+##### 10
+![alt text](images/propriedades_determinantes/10.png)
+##### 11
+![alt text](images/propriedades_determinantes/11.png)
+##### 12
+![alt text](images/propriedades_determinantes/12.png)
