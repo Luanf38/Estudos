@@ -24,16 +24,16 @@ e cada acerto se mantém e a cada passo gera uma aplicaçao mais polida e próxi
 ###### Note que o modelo possui quatro etapas que serão explicadas logo abaixo.
 
 ##### Identificação
-
 &emsp;É a parte em que a ênfase é a comunicação entre o cliente e o analista de sistema para definir quais são os requisitos a serem desenvolvidos, fora o que será necessário para a implantação.
 
 ##### Projeto 
-
 &emsp;Começa na espiral básica com o projeto conceitual e inclui espirais subsequentes com projeto arquitetônico, projeto lógico de módulos, projeto físico do produto e projeto final.
 
 ##### Construção (desenvolvimento)
-
 &emsp;É o desenvolvimento do produto de software real em cada espiral. Na espiral básica, quando o conceito precisa ser avaliado de acordo com sua viabilidade, então, deve-se desenvolver uma POC (Prova de Conceito) e tentar obter um feedback valioso do cliente. Conhecendo todos os requisitos e detalhes de projeto, é produzida uma versão numerada do modelo de trabalho (build) do software. O cliente revisa todas as construções e dá feedback.
 
 ##### Avaliação (análise de risco)
 &emsp;É um processo de identificação, estimativa e monitoramento da viabilidade técnica gestão de riscos. Por exemplo, cronograma em atraso e custos excedidos.
+
+#####  Modelo de Pototipação
+&emsp;Nesse modelo os requisitos são parciais ou imprecisos, então é criado um protótipo para apresentação e coleta de feedback, dependendo da abordagem o protótipo pode ser refinado ou utilizado para o produto final, ou também pode ser descartado.
