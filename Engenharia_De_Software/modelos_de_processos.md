@@ -18,3 +18,22 @@ e cada acerto se mantém e a cada passo gera uma aplicaçao mais polida e próxi
 &emsp;Apesar de seus pontos fortes, esse modelo requer um bom planejamento e definição precoce do sistema completo e totalmente funcional. Também requer interfaces de módulo bem definidas. A figura abaixo ilustra esse modelo.
 ![alt text](images/modelo_incremental.png)
 
+### Modelo Espiral
+&emsp;O modelo espiral usa alguns pontos positivos de seus modelos antecessores, ele tem metodologia iterativa e usa ma abordagem sistemática e a capacidade de controlar o processo. A maior ênfase atual recai sobre a análise de risco. Além disso, ele entrega um projetoem iterações que giram em torno da espiral.
+![alt text](images/modelo_espiral.png)
+###### Note que o modelo possui quatro etapas que serão explicadas logo abaixo.
+
+##### Identificação
+
+&emsp;É a parte em que a ênfase é a comunicação entre o cliente e o analista de sistema para definir quais são os requisitos a serem desenvolvidos, fora o que será necessário para a implantação.
+
+##### Projeto 
+
+&emsp;Começa na espiral básica com o projeto conceitual e inclui espirais subsequentes com projeto arquitetônico, projeto lógico de módulos, projeto físico do produto e projeto final.
+
+##### Construção (desenvolvimento)
+
+&emsp;É o desenvolvimento do produto de software real em cada espiral. Na espiral básica, quando o conceito precisa ser avaliado de acordo com sua viabilidade, então, deve-se desenvolver uma POC (Prova de Conceito) e tentar obter um feedback valioso do cliente. Conhecendo todos os requisitos e detalhes de projeto, é produzida uma versão numerada do modelo de trabalho (build) do software. O cliente revisa todas as construções e dá feedback.
+
+##### Avaliação (análise de risco)
+&emsp;É um processo de identificação, estimativa e monitoramento da viabilidade técnica gestão de riscos. Por exemplo, cronograma em atraso e custos excedidos.
