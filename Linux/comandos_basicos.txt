@@ -18,3 +18,10 @@ Comandos de manipulacao de pastas e arquivos:
         mv arquivo destino (mover)
         mv arquivo_existente novo_nome (renomear)
     cp = copiar um arquivo
+    > = direciona o inoput para o arquivo desejado
+
+Comandos systemd
+    systemd-analyze = mostra o tempo de carregamento do sistema e pode-se
+        acrescentar o "blame" para detalhar o tempo de cada processo
+    hostnamectl = mostra as informações do sistema
+    systemctl = exibe o status de todos os serviços do servidor
