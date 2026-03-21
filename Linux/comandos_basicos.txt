@@ -1,0 +1,20 @@
+Comandos de navegação:
+    cd = Navega entre diretórios
+    ls = lista os arquivos e pastas da diretório atual
+    ls -l = lista e mostra detalhes de pastas e arquivos
+    . = diretório atual
+    .. = duretorio pai
+    / = diretorio root
+    ~ = diretorio do usuario logado
+
+Comandos de manipulacao de pastas e arquivos:
+    mkdir = cria uma pastas
+    rm = deleta um arquivos
+    rm -r = deleta uma pasta
+    vi = comando do editor de texto
+    cat = le um arquivo
+    tac = le um arquivo de tras para frente
+    mv = move uma pasta ou arquivo, mas tambem renomeira
+        mv arquivo destino (mover)
+        mv arquivo_existente novo_nome (renomear)
+    cp = copiar um arquivo
