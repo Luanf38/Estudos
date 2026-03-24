@@ -1,3 +1,6 @@
+Comandos básicos:
+    su = dá privilégios de root para o user logado
+
 Comandos de navegação:
     cd = Navega entre diretórios
     ls = lista os arquivos e pastas da diretório atual
@@ -25,3 +28,9 @@ Comandos systemd
         acrescentar o "blame" para detalhar o tempo de cada processo
     hostnamectl = mostra as informações do sistema
     systemctl = exibe o status de todos os serviços do servidor
+
+Comandos de rede
+    lspci = Mostra todos os dispositivos conectados ao servidor
+    ip address = da informações sobre os dispositivos e endereços de rede
+    ifdown "Nome da interface de rede" = reseta as configurações de ip do servidor
+    ifup "Nome da interface de rede" = para pegar uma nova configuração de ip
