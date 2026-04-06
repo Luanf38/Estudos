@@ -6,7 +6,7 @@ Comandos de navegação:
     ls = lista os arquivos e pastas da diretório atual
     ls -l = lista e mostra detalhes de pastas e arquivos
     . = diretório atual
-    .. = duretorio pai
+    .. = diretorio pai
     / = diretorio root
     ~ = diretorio do usuario logado
 
