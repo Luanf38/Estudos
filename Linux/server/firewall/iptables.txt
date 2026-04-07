@@ -28,3 +28,42 @@ Descrição da regra acima:
     ICMP: protocolo que vai ser usado na regra(ICMP é o protoclo usado para ping entre máquinas)
     -j: Especifica a ação
     DROP: Acão utilizada na regra(DROP descarta o pacote sem retorno para o cliente)
+
+As regras são perdidas ao reiniciar o servidor, por isso é necessário um script
+para a inicialização do firewall junto do início do servidor.
+
+Como criar o script:
+    entrar no diretório "/usr/local/bin"
+    Criar o arquivo de configuração(firewall.sh por exemplo), 
+        com o script 
+    Na primeira linha do arquivo indicar que é um comando shell 
+        com o seguinte texto:  #!/bin/bash
+        o nome dessa linha (#!) é "shebang" e ela
+        instrui o OS sobre qual interpretador(no caso shell) usar sem a necessidade
+        de chamar um interpretador manualmente; seguido do caminho do arquivo
+    Em seguida digitar a regra que deseja aplicar:
+        por exemplo: iptables -I INPUT -p ICMP -j DROP
+    Mudar a permissão do arquivo para poder ser lido na inicialização do OS:
+        chmod +x firewall.sh
+    Teste do script:
+        sh firewall.sh: executa o script
+        rodas o comando: iptables -L para verificar se a regra foi aplicada
+        Testar a regra simulando um cliente
+    Navegue até a pasta: /etc/systemd/system:
+        Nessa pasta estão os arquivos correspondentes para iniciar 
+        junto do systemd
+    Crie um arquivo(firewall.service por exemplo)
+    Digite as seguintes linhas para definir que o arquivo firewall.service
+        é um serviço que deve ser iniciado jundo com o servidor:
+        [Unit] // seção que descreve informações gerairs sobre a unidade
+        Description=Firewall // Apenas um texto descritivo
+        
+        [Service] // seção principal onde é definido como o servço é iniciado, parado ou reiniciado
+        ExecStart=/usr/local/bin/firewall.sh start
+        ExecStop=/usr/local/bin/firewall.sh stop
+        ExecReload=/usr/local/bin/firewall.sh restart
+
+        [Install] // Diz ao sistemd o que fazer com esse service durante o boot do system
+                  //Obs: Essa seção só é usada se o serviço estiver "enabled" no systemd
+        WantedBy=multi-user.target //Indica que quando o sistema atingir o estado multi-user.target
+                                   //o serviç será iniciado automaticamente            

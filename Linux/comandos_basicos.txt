@@ -22,6 +22,8 @@ Comandos de manipulacao de pastas e arquivos:
         mv arquivo_existente novo_nome (renomear)
     cp = copiar um arquivo
     > = direciona o inoput para o arquivo desejado
+    chmod = altera as permissões do arquivo
+    chmod +x arquivo = adiciona permissão de execussão ao arquivo
 
 Comandos systemd
     systemd-analyze = mostra o tempo de carregamento do sistema e pode-se
