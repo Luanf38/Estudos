@@ -66,4 +66,5 @@ Como criar o script:
         [Install] // Diz ao sistemd o que fazer com esse service durante o boot do system
                   //Obs: Essa seção só é usada se o serviço estiver "enabled" no systemd
         WantedBy=multi-user.target //Indica que quando o sistema atingir o estado multi-user.target
-                                   //o serviç será iniciado automaticamente            
+                                   //o serviço será iniciado automaticamente  
+        Salve o aqruivo e teste os comandos systemctl          
