@@ -67,4 +67,4 @@ Como criar o script:
                   //Obs: Essa seção só é usada se o serviço estiver "enabled" no systemd
         WantedBy=multi-user.target //Indica que quando o sistema atingir o estado multi-user.target
                                    //o serviço será iniciado automaticamente  
-        Salve o aqruivo e teste os comandos systemctl          
+        Salve o aqruivo habilite o servico e teste os comandos systemctl          
