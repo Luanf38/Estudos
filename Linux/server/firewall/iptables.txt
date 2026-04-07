@@ -1,0 +1,30 @@
+No kernel temos um módulo integrado ao kernel chamado netfilter, que fornece 
+as funções de firewall e o iptables é a ferramenta usada para configurar esse módulo.
+
+Comandos:
+    iptables -L: Mostra as regras definidas para esse servidor
+    iptables -I: adiciona regra no início da lista
+    iptables -I 3: adiciona regra na posição 3 da lista
+    iptables -A: Adiciona regra no final da lista
+    iptables -D: Apaga uma regra do firewall
+    iptables -F: Apaga todas as regras do firewall
+
+Parâmetros:
+    -p: especificar o protocolo 
+    -s: especificar a origem
+    -d: especificar o destino
+    -i: especificar a interface de entrada
+    -o: especificar a interface de saída
+    --sport: especificar a porta de origem
+    --dport: especificar a porta de destino
+    -j: especificar a ação (ACCEPT: aceita a ação, DROP descarta sem retorno para o cliente, REJECT rejeira a ação com retorno para o cliente)
+
+Exemplo de acição de regra: iptables -I INPUT -p ICMP -j DROP
+Descrição da regra acima:
+    iptables: comando base para a ferramenta iptables
+    -I: adiciona regra no início da lista
+    INPUT: Especifica que é regra de entrada
+    -p: Especifica o protocolo
+    ICMP: protocolo que vai ser usado na regra(ICMP é o protoclo usado para ping entre máquinas)
+    -j: Especifica a ação
+    DROP: Acão utilizada na regra(DROP descarta o pacote sem retorno para o cliente)
