@@ -67,4 +67,34 @@ Como criar o script:
                   //Obs: Essa seção só é usada se o serviço estiver "enabled" no systemd
         WantedBy=multi-user.target //Indica que quando o sistema atingir o estado multi-user.target
                                    //o serviço será iniciado automaticamente  
-        Salve o aqruivo habilite o servico e teste os comandos systemctl          
+        Salve o aqruivo habilite o servico e teste os comandos systemctl    
+
+configuração de firewall de exemplo:
+    Nessa parte vamos configurar um firewall para proteger o nosso servidor web e servidor 
+    de DB tendo em vista que por padrão:
+        SSH usa a porta 22
+        HTTP usa a porta 80
+        HTTPS usa a porta 443
+        MySQL usa a porta 3306
+
+    Partindo do pré-supposto que o script firewall.sh já está criado
+    e que o serviço firewall.service já está configurado vamos fazer as configurações em
+    cima desse arquivo
+
+    Navegue até a pasta /usr/local/bin
+    Edite o arquivo firewall.sh:
+        Delete a linha com a regra que foi criada no exemplo passado
+            mas mantenha o shebang
+        Delete as regras pré existentes
+            iptables -F // Limpa as regras de firewall
+            iptables -t nat -F // Limpa as regras da tabela nat
+            iptables -t angle -F // Limpa as regras da tabela mangle
+        Ative o modulo do netfilter que evita ataques DoS
+            echo 1 > /proc/sys/net/ipv4/tcp_syncookies // ser o echo imprimir o numero 0 ele desativa o modulo
+        Libere as portas dos serviços necessários:
+            iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+            iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+            iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+            iptables -A INPUT -p tcp --dport 3306 -j ACCEPT
+        Bloqueie as demais portas
+            iptables -A INPUT -p --syn -j DROP
