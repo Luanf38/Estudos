@@ -1,10 +1,3 @@
-### Padrões de Projeto
-&emsp; Nessa sessão vou falar um pouco de alguns padrões úteis.
-
-#### Adapter
-&emsp;Resolve o problema de interfaces incompatíveis ou fornecer uma interface estável para componentes semelhantes com interfaces diferentes.
-Esse padrão cria uma camada intermediária entre as duas interfaces Adaptee (não quer ou não pode ser alterada) e Target (interface que será usada no sistema) para que o Adaptee seja usada sem allterar a lógica dentro dela.
-
 #### Singleton
 &emsp;Padrão que garante que uma classe tenha apenas **uma única instância** em todo o ciclo de vida da aplicação e fornece um ponto de acesso global a essa instância.
 
